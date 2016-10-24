@@ -1,0 +1,7 @@
+.container{
+  border: 5px solid blue;
+}
+#pic{
+width: 100%;
+z-index: 0;
+}
