@@ -2,6 +2,6 @@
 
 (() => {
   // Have Moment.js update the text for $('#time') here
-  $('#time').text(moment().format('LT'));
+  $('#time').text(moment().format('h:mm'));
 
 })();

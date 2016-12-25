@@ -5,19 +5,18 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <title>Momentum</title>
   <link rel="stylesheet" href="/css/normalize.css">
-  <link rel="stylesheet" href="http://localhost:3000/css/main.css">
+  <link rel="stylesheet" href="/css/main.css">
   <script src="/js/moment.js" type="text/javascript"></script>
   <script src="https://code.jquery.com/jquery-3.1.1.min.js" type="text/javascript"></script>
   <script src="/js/script.js" type="text/javascript" async defer></script>
 </head>
-<body>
+<body id="background" background="<%= image.urls.regular %>">
   <div id="container">
-  <div id="pic">
-    <img src="<%= image.urls.regular %>" alt="background image">
-  </div>
-    <div id="temp"><%= weather.main.temp_min %>°F</div>
-    <div id="time"></div>
-    <div id="quote">"Inspiration"<br>&mdash; Author Person</div>
+      <h3>Links<img id="search" src="http://www.clker.com/cliparts/9/T/2/h/X/7/search-icon-md.png"/></h3>
+    <div id="weather"><%= weather.main.temp_min %>°F</div>
+    <h1 id="time"></h1>
+    <h2>Good evening, Skylar.</h2>
+    <div id="quote"><%= quote.quoteText %><br>&mdash; <%= quote.quoteAuthor %></div>
   </div>
 </body>
 </html>

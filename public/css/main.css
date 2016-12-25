@@ -1,7 +1,73 @@
-.container{
-  border: 5px solid blue;
+*{
+margin: 0 auto;
 }
-#pic{
-width: 100%;
-z-index: 0;
+
+
+
+body{
+  width: 100vw;
+  height: 100vh;
+  color: white;
+  background-color: #222;
+  background-size: cover;
+  background-repeat: no-repeat;
 }
+
+#time{
+  font-size: 1050%;
+  text-align: center;
+  font-weight: 500;
+  letter-spacing: -5px;
+  line-height: 1;
+  font-family: 'Helvetica Neue';
+  text-shadow: 2px 0px #222;
+  margin: 0 auto;
+  padding-top: 15%;
+}
+
+h2{
+  text-align: center;
+  padding-bottom: 150px;
+  font-size: 375%;
+  font-family: 'Helvetica Neue';
+  text-shadow: 2px 0px 1px #222;
+  letter-spacing: -3px;
+  line-height: 1;
+  font-weight: 500;
+  margin: 0;
+}
+
+#search{
+  top: 10px;
+}
+
+#search, h3{
+  height: 20px;
+  position: relative;
+  margin-left: 10px;
+  font-weight: 500;
+  font-size: 125%;
+  color: #fafafa;
+  margin: 10px;
+  margin-left: 20px;
+  text-shadow: .7px .7px 0 #222;
+
+}
+
+#quote{
+  font-size: 20px;
+  text-align: center;
+  clear: both;
+  padding-bottom: 5px;
+  text-shadow: .7px .7px 0 #222;
+}
+
+#weather{
+  display: flex;
+  justify-content: flex-end;
+  flex-direction: row;
+  margin-right: 20px;
+  text-shadow: .7px .7px 0 #222;
+
+}
+
